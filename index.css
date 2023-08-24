@@ -1,0 +1,76 @@
+.title{
+    color: blue;
+  text-decoration: underline;
+    text-align: center;
+}
+
+#title2{
+    color: green;
+}
+
+#title3{
+    color: rgb(255, 0, 0);
+}
+
+.box{
+   
+    width: 80px;
+    height: 80px;
+    border: 1px solid green;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    
+
+}
+
+#box1{
+    background-color: orange;
+    border: 5px solid black;
+
+}
+#box2{
+    background-color: blue;
+    border: 5px dashed yellow;
+
+}
+
+#box3{
+    background-color: greenyellow;
+    border: 5px solid pink;
+
+}
+
+.masterBox{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.masterButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.button{
+    margin: 60px;
+    background-color: rgb(175, 173, 173); 
+    padding: 20px;
+
+  
+}
+
+.invisbleButton{
+    display: flex;
+    justify-content: center;
+
+}
+
+.gapButtons{
+    display: flex;
+    justify-content: center;
+    gap: 480px;
+}
