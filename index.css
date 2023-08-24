@@ -16,7 +16,7 @@
    
     width: 80px;
     height: 80px;
-    border: 1px solid green;
+    
     padding: 50px;
     margin: 20px;
     text-align: center;
@@ -25,19 +25,19 @@
 }
 
 #box1{
-    background-color: orange;
+    background-color: red;
     border: 5px solid black;
 
 }
 #box2{
-    background-color: blue;
-    border: 5px dashed yellow;
+    background-color: white;
+    border: 5px dashed blue;
 
 }
 
 #box3{
-    background-color: greenyellow;
-    border: 5px solid pink;
+    background-color: blue;
+    border: 5px solid red;
 
 }
 

@@ -13,44 +13,44 @@ let boxBmod = document.getElementById("changeBox2");
     
     boxBmod.addEventListener("click", function () {
     boxB.style.backgroundColor = "yellow"
-    boxB.style.border = "5px dashed blue"
+    boxB.style.border = "5px solid blue"
 });
 
 let boxC = document.getElementById("box3");
 let boxCmod = document.getElementById("changeBox3")
 
 boxCmod.addEventListener("click", function () {
-    boxC.style.background ="blue"
-    boxC.style.border =" 5px solid black"
+    boxC.style.background ="green"
+    boxC.style.border =" 5px dashed black"
 })
 
 let changeAll = document.getElementById("changeAllBox");
 
 changeAll.addEventListener("click", function () {
     
-    boxA.style.backgroundColor = "red"
-    boxA.style.border = "5px double black"
+    boxA.style.backgroundColor = "purple"
+    boxA.style.border = "5px dotted blue"
 
 
-    boxB.style.backgroundColor = "white"
-    boxB.style.border = "5px dashed black"
+    boxB.style.backgroundColor = "pink"
+    boxB.style.border = "5px solid black"
 
-    boxC.style.background ="green"
-    boxC.style.border =" 5px dotted red"
+    boxC.style.background ="#B65FCF"
+    boxC.style.border =" 5px dotted orange"
 
 })
 
 let resetColor = document.getElementById("resetColors");
 
 resetColor.addEventListener("click", function () {
-    boxA.style.backgroundColor = "orange"
+    boxA.style.backgroundColor = "red"
     boxA.style.border = "5px solid black"
 
-    boxB.style.backgroundColor = "blue"
-    boxB.style.border = "5px dashed yellow"
+    boxB.style.backgroundColor = "white"
+    boxB.style.border = "5px dashed blue"
 
-    boxC.style.backgroundColor = "greenyellow"
-    boxC.style.border = "5px solid pink"
+    boxC.style.backgroundColor = "blue"
+    boxC.style.border = "5px solid red"
     
 })
 
